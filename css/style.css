@@ -1,0 +1,1479 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+
+    
+
+    background-image: url(../img/cafefondo2.jpg);
+
+    
+
+}
+
+/* header */
+
+.header{
+
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom: 3px solid black;
+
+    background-color: rgb(191,144,0);
+
+    z-index: 900;
+
+}
+
+
+.header__logo{ 
+
+    margin: 20px 50px;
+
+    width: 60px;
+    
+    height: 60px;
+    
+}
+
+.header__burger{
+
+    display: none;
+
+}
+
+.header__nav{
+
+    margin-top: 20px;
+
+    padding: 7px;
+
+
+}
+
+.header__ul{
+    
+    width: 600px;
+    
+    padding: 5px;
+    
+    
+}
+
+.header__li{
+
+    display: inline;
+    
+    text-decoration: none;
+    
+    margin: 3px;
+    
+}
+
+.header__a{
+
+    font-family: 'Indie Flower', cursive;
+
+    font-weight: bold;
+    
+    text-decoration: none;
+
+    font-size: 20px;
+    
+    padding: 7px;
+    
+    border: black 1px solid;
+
+    border-radius: 15px;
+    
+    background-color: rgb(255, 255, 255);
+    
+    color: black;
+    
+    
+}
+
+.header__a:hover{
+    
+    background-color: black;
+    
+    color: white;
+
+    padding: 7px;
+
+    border-radius: 15px;
+}
+
+.header__insta{
+
+    margin: 20px 50px;
+
+    width: 50px; height: 50px;
+
+}
+
+.header__check{
+
+    display: none;
+
+}
+
+
+/* inicio */
+
+.portada{
+
+    display: grid;
+    
+    grid-template-areas: 
+    "imagen"
+    "info";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 450px;
+    
+    row-gap: 50px;
+    
+    
+}
+
+.portada__foto{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.portada__cafe{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.portada__h3{ 
+
+    display: flex;
+    
+    width: 250px;
+    
+    padding: 7px;
+    
+    font-size: 25px;
+    
+    font-family: 'Indie Flower', cursive;
+    
+    text-align: center;
+    
+    background-color: rgba(191, 143, 0, 0.568);
+    
+    border: solid 2px rgb(191,144,0);
+    
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.portada__text{
+
+    justify-self: center;
+
+    display: inline-block;
+    
+    width: 1303px;
+    
+    height: 424px;
+    
+    border: solid 10px rgb(241, 181, 0);
+    
+    padding: 70px;
+    
+    background-color: rgb(191,144,0);
+    
+}
+
+.portada__h1{
+
+    justify-self: center;
+    
+    text-align: center;
+    
+    font-size: 60px;
+    
+    font-family: 'Indie Flower', cursive;
+    
+    
+}
+
+.portada__p{
+
+    justify-self: center;
+    
+    text-align: center;
+    
+    font-size: 40px;
+    
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.ubicacion{
+    
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin-bottom: 50px;
+    
+    margin-top: 50px;
+    
+}
+
+.ubicacion__text{
+
+    justify-self: start;
+    
+    width: 543px;
+    
+    height: 250px;
+    
+    border: solid 10px rgb(241, 181, 0);
+    
+    padding: 15px;
+    
+    background-color: rgb(191,144,0);
+    
+}
+
+.ubicacion__h3{
+
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 45px;
+    
+    text-align: left;
+    
+}
+
+.ubicacion__p{
+
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 20px;
+    
+    
+}
+
+.ubicacion__map{
+
+    width: 450px;
+    height: 250px;
+    
+    border: solid 10px rgb(241, 181, 0);
+    
+    
+}
+
+
+
+
+/* contacto */
+
+
+.conmain{
+
+    display: grid;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px auto;
+
+    align-content: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+.tcontc{
+    
+    grid-column: 1/4 ;
+
+    grid-row: 1/2;
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    font-family: 'Indie Flower',cursive;
+    
+    text-align: center;
+    
+    width: 380px;
+
+    height: 120px;
+    
+    background-color: rgb(191,144,0);
+    
+    font-size: 35px;
+    
+    margin-top: 30px;
+
+    margin-left: 40px;
+    
+}
+
+.datos{
+
+    grid-column: 1/2;
+
+    grid-row: 2/3;
+    
+    display: inline;
+
+    width: auto;
+
+    min-width: 240px;
+
+    height: auto;
+    
+    background-color: rgb(191,144,0);
+    
+    border: 5px solid rgb(241, 181, 0);
+    
+    padding: 10px;
+
+    margin-left: 28%;
+    
+
+    
+}
+
+.datos__form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: auto;
+
+    height: auto;
+    
+    padding: 10px;
+    
+}
+
+.datos__div{
+
+    width: auto;
+    
+    font-family: 'indie flowe', cursive;
+    
+    padding: 10px;
+    
+    margin: 7px 0px;
+    
+}
+
+#nc{
+    
+    width: 120px;
+    
+}
+
+#comentarios{
+
+    width: 200px;
+
+}
+
+.textarea{
+
+    grid-column: 3/4;
+
+    grid-row: 2/3;
+    
+    display: block;
+
+    padding: 10%;
+    
+    background-color: rgb(191,144,0);
+    
+    border: 5px solid rgb(241, 181, 0);
+
+    margin-right: 120px;
+    
+    justify-self: center;
+
+}
+
+.textarea__img{
+
+    width: 100%;
+
+}
+
+
+
+.textarea__p{
+    
+    display: inline-block;
+    
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 20px;
+    
+    text-align: center;
+    
+    margin: 15px;
+}
+
+/* reservas */
+
+.resmain{
+
+    display: grid;
+
+    grid-row: 1fr 1fr;
+
+    align-content: center;
+
+    justify-items: center;
+
+}
+
+.restext{
+
+    display: inline-block;
+    
+    font-family: 'indie flowe', cursive;
+    
+    background-color: rgb(191,144,0);
+    
+    border: 5px solid rgb(241, 181, 0);
+    
+    padding: 10px;
+    
+    width: 50%;
+
+    margin-top: 30px;
+
+
+    
+}
+
+.restext__h1{
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    
+}
+
+.restext__p{
+    
+    text-align: center;
+    
+    font-size: 22px;
+    
+    padding: 7px;
+    
+}
+
+.campos{
+
+
+    margin-top: 30px;
+
+    margin-bottom: 40px;
+    
+    font-family: 'indie flowe', cursive;
+    
+    display: inline-block;
+    
+    border: solid rgb(241, 181, 0) 4px;
+    
+    background-color: rgb(191,144,0);
+    
+    padding: 20px;
+    
+
+}
+
+.campos__form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campos__div{
+
+    width: 100%;
+    
+    padding: 15px;
+    
+}
+
+/* lacarta */
+
+.title{
+    
+    display: grid;
+
+    justify-items: center;
+    
+    font-family: 'indie flowe', cursive;
+    
+    font-size: 35px;
+
+    
+}
+
+.title h1{
+    
+    text-align: center;
+    
+    padding: 5px;
+
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+}
+
+.carta{
+
+    display: grid;
+    
+    font-family: 'indie flowe', cursive;
+    
+    margin: 50px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: auto 1fr;
+
+    justify-items: center;
+
+
+    
+}
+
+.carta__title{
+    
+    font-size: 25px;
+    
+    text-align: center;
+    
+}
+
+.carta__a{
+    
+
+    display: inline-block;
+    
+    
+}
+
+.carta__cafeteria{
+    
+    
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    border-radius: 25px;
+    
+    padding: 15px;
+    
+}
+
+.carta__b{
+    
+
+    
+    display: inline-block;
+    
+
+    
+}
+
+.carta__cafefria{
+    
+    
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    border-radius: 25px;
+    
+    padding: 15px;
+    
+    
+    
+}
+
+.carta__c{
+    
+
+    display: inline-block;
+    
+    
+}
+
+.carta__pastel{
+    
+    
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    border-radius: 25px;
+    
+    padding: 15px;
+    
+    
+}
+
+.carta__d{
+    
+ 
+    
+    display: inline-block;
+    
+}
+
+.carta__waffles{
+    
+    margin-top: 20px;
+    
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    border-radius: 25px;
+    
+    padding: 15px;
+    
+}
+
+.carta__e{
+    
+    grid-column: 3/4;
+    
+    display: inline-block;
+    
+}
+
+.carta__bagel{
+    
+    margin-top: 20px;
+    
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    border-radius: 25px;
+    
+    padding: 15px;
+    
+}
+
+.carta__item{
+    
+    border: solid 3px rgb(241, 181, 0);
+    
+    padding: 20px;
+    
+}
+
+/* unetenos */
+
+.mainunete{
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto auto;
+
+    justify-items: center;
+
+}
+
+.intro{
+    
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+
+    background-color: rgb(191,144,0);
+    
+    border: solid 5px rgb(241, 181, 0);
+    
+    display: inline-block;
+    
+    width: 500px;
+    
+    font-family: 'indie flowe', cursive;
+    
+    text-align: center;
+    
+}
+
+.data{
+
+    margin-bottom: 50px;
+
+    background-color: rgb(191,144,0);
+    
+    border: 5px solid rgb(241, 181, 0);
+    
+    display: inline-block;
+    
+    padding: 20px;
+    
+    font-family: 'indie flowe', cursive;
+    
+}
+
+.data__perso{
+    
+    padding: 20px;
+    
+}
+
+.data__domi{
+    
+    padding: 20px;
+    
+}
+
+.data__hora{
+    
+    padding: 20px;
+    
+}
+
+.data__cv{
+    
+    padding: 20px;
+    
+}
+
+.data__enviar{
+    
+    padding: 20px;
+    
+}
+
+
+
+.footer{
+    
+    display: flex;
+    
+    justify-content: end;
+    
+    width: 100%;
+    
+    border-top: solid black 3px;
+    
+    background-color: rgb(191,144,0);
+    
+    margin-top: auto;
+    
+    
+    
+    
+    
+}
+
+.footer__contactos{
+    
+    display: inline-block;
+    
+    margin: 10px;
+    
+    padding: 10px;
+    
+    
+    
+}
+
+.footer__redes{
+    
+    display: inline-block;
+    
+    margin: 10px;
+    
+    padding: 10px;
+    
+    
+    
+    
+    
+}
+
+/* header mobile y tablet */
+@media screen and (max-width: 960px) {
+    
+    
+    .header__logo{
+        
+        order: 2;
+        
+        margin: 15px;
+        
+    }
+    
+    
+    .header__nav{
+        
+        margin: 15px;
+        
+    }
+    
+    
+    .header__burger{
+        
+        display: block;
+        
+        width: 50px;
+
+        cursor: pointer;
+        
+    }
+    
+    
+    
+    
+    .header__label, .header__check{ 
+        
+        display: none;
+        
+    }
+    
+    
+    .header__menu{
+        position: fixed;
+        top: 80px;
+        bottom: 0px;
+        background: rgb(191,144,0);
+        width: 100%;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        clip-path: circle(0 at center);
+        
+    }
+    
+    .header__check:checked + .header__menu{
+        
+        clip-path: 	circle(100% at center);
+        
+    }
+    
+    .header__li{
+        
+        margin: 35px 0px 0px 100px;
+        
+        display: block;
+        
+    }
+    
+    .header__a{
+        
+        border: rgb(241, 181, 0) solid 1px; 
+        
+        background: rgb(241, 181, 0);
+        
+    }
+    
+    .header__insta{
+        
+        width: 60px;
+        
+        height: 60px;
+        
+        order: 3;
+        
+        margin: 15px;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+/* inicio mobile */
+@media screen and (max-width: 400px) {
+    
+    .portada{
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 3fr auto;
+        
+        row-gap: 50px;
+        
+    }
+    
+    .portada__foto{
+        
+        width: 100%;
+        
+    }
+    
+    .portada__h3{
+        
+        font-size: 20px;
+        
+        width: 35%;
+        
+    }
+    
+    .portada__text{
+        
+        width: 100%;
+
+        height: auto;
+        
+    }
+    
+    .portada__h1{
+        
+        font-size: 30px;
+        
+    }
+    
+    .portada__p{
+        
+        font-size: 20px;
+        
+    }
+    
+    .ubicacion{
+
+        flex-direction: column;
+    }
+    
+    .ubicacion__text{
+        
+        width: 100%;
+        
+        height: auto;
+        
+    }
+    
+    .ubicacion__h3{
+        
+        font-size: 30px;
+        
+    }
+    
+    .ubicacion__p{
+        
+        font-size: 20px;
+        
+    }
+    
+    .ubicacion__map{
+        
+        width: 100%;
+        
+        margin-top: 50px;
+        
+    }
+    
+}
+
+/* inicio tablet */
+
+@media (min-width: 401px) and (max-width: 960px) {
+
+    .portada{
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 3fr auto;
+        
+        row-gap: 50px;
+        
+    }
+
+    .portada__foto{
+
+        width: 100%;
+
+    }
+
+    .portada__text{
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    .ubicacion{
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .ubicacion__text{
+
+        width: auto;
+
+        height: auto;
+
+    }
+
+    .ubicacion__map{
+
+        width: 401px;
+
+        margin-top: 50px;
+
+    }
+    
+}
+
+
+/* contactos mobile */
+@media screen and (max-width: 400px) {
+
+    .conmain{
+
+        grid-template-columns: 100%;
+
+        grid-template-rows: 120px 1fr 1fr;
+
+        justify-items: center;
+
+
+    }
+
+    .tcontc{
+
+        grid-column: 1/2;
+
+        grid-row: 1/2;
+
+        margin-left: 0;
+
+        width: 70%;
+
+        height: 50px;
+
+        font-size: 19px;
+
+    }
+
+    .tcontc__h1{
+
+        display: inline;
+
+        width: auto;
+
+    }
+
+    .datos{
+
+        grid-column: 1/2;
+
+        grid-row: 3/4;
+
+        margin-left: 0px;
+
+        margin-top: 30px;
+
+    }
+
+    .textarea{
+
+        display: block;
+
+        grid-column: 1/2;
+
+        grid-row: 2/3;
+
+        width: 100%;
+
+        margin-right: 0px;
+
+    
+    }
+
+    .textarea__img{
+
+        width: 100%;
+
+    }
+
+
+    
+}
+
+@media (min-width: 401px) and (max-width: 960px) {
+    
+    .conmain{
+
+        grid-template-columns: 100%;
+
+        grid-template-rows: 120px 1fr 1fr;
+
+        justify-items: center;
+
+
+    }
+
+    .tcontc{
+
+        grid-column: 1/2;
+
+        grid-row: 1/2;
+
+        margin-left: 0;
+
+        width: 70%;
+
+        height: 50px;
+
+        font-size: 19px;
+
+    }
+
+    .tcontc__h1{
+
+        display: inline;
+
+        width: auto;
+
+    }
+
+    .datos{
+
+        grid-column: 1/2;
+
+        grid-row: 3/4;
+
+        margin-left: 0px;
+
+        margin-top: 30px;
+
+    }
+
+    .textarea{
+
+        display: block;
+
+        grid-column: 1/2;
+
+        grid-row: 2/3;
+
+        width: 70%;
+
+        margin-right: 0px;
+
+    
+    }
+
+    .textarea__img{
+
+        width: 100%;
+
+    }
+
+
+    
+
+}
+
+/* reservas mobile */
+
+@media screen and (max-width: 400px) {
+
+    .restext{
+
+        width: 70%;
+
+
+    }
+
+    .restext__h1{
+
+        font-size: 20px;
+
+    }
+
+    .restext__p{
+
+        font-size: 16px;
+
+    }
+
+    .campos{
+
+        width: 50%;
+
+    }
+
+    .campos__form{
+
+        width: 100%;
+
+    }
+
+    .campos__blank{
+
+        width: 100%;
+
+    }
+    
+    .lib__div{
+
+        display: none;
+
+    }
+
+
+}
+
+/* reservas tablet */
+
+@media (min-width: 401px) and (max-width: 960px) {
+
+    .restext{
+
+        width: 70%;
+
+    }
+
+    .restext__h1{
+
+        font-size: 22px;
+
+    }
+
+    .restext__p{
+
+        font-size: 18px;
+
+    }
+
+    .campos{
+
+        width: 60%;
+
+    }
+
+    .lib__f{
+
+        width: 90%;
+
+    }
+
+
+
+    
+}
+
+/* la carta mobile */
+
+@media screen and (max-width: 400px){
+
+    .carta{
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    .carta__b{
+        
+        margin-top: 20px;
+
+    }
+
+    .carta__c{
+
+        margin-top: 20px;
+
+    }
+
+}
+
+/* la carata tablet */
+
+@media (min-width: 401px) and (max-width: 960px){
+
+    .carta{
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+
+    }
+
+}
+
+
+@media (min-width: 401px) and (max-width: 960px){
+
+    .intro{
+
+        width: 70%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    .intro{
+
+        width: 70%;
+
+    }
+
+    .intro__h1{
+
+        font-size: 20px;
+
+    }
+
+    .intro__p{
+
+        font-size: 16px;
+
+    }
+
+    .data{
+
+        width: 60%;
+
+    }
+
+    .data__input{
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 961px) and (max-width: 1303px) {
+
+    .portada__text{
+        
+        width: 960px;
+        
+        
+    }
+
+    .ubicacion__map{
+        
+        width: 250px;
+        
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    .footer{
+
+        font-size: 12px;
+
+    }
+    
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="shortcut icon" href="./img/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__logo"> <!-- logo de la cafeteria -->
+            
+            <a href="../index.html"><img src="../img/Logo.jpg" alt="Logo" width="60px" height="60px"></a>
+             
+         </div>
+
+
+        <nav class="header__nav">
+    
+            <label for="menu" class="header__lavel">
+
+                <img src="https://img.icons8.com/ios-filled/100/000000/menu--v1.png" class="header__burger"/>
+
+            </label>
+            <input type="checkbox" id="menu" class="header__check">
+
+            <div class="header__menu">
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a href="../index.html" class="header__a">Inicio</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="./reservas.html" class="header__a">Reservas</a>
+                    </li>
+                    <li class="header__li"> 
+                        <a href="./lacarta.html" class="header__a">La Carta</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="./contacto.html" class="header__a">Contacto</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="./unetenos.html" class="header__a">Unete al staff</a>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+    
+        <div class="header__insta">  <!-- logo de insta con enlace a el -->
+    
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../img/insta.png" alt="insta" width="60px" height="60px">
+            </a>
+    
+        </div>
+
+    </header>
+
+    <main class="resmain">
+
+        
+        <section class="restext">
+            
+            
+            <div class="restext__div">
+                
+                <h1 class="restext__h1">Reservas</h1>
+                
+                <p class="restext__p">
+                    Las reservas en nuestros locales
+                    tienen una maximo de 6 personas.
+                    La reserva es guardada hasta las 21hs
+                    tenemos una tolerancia máxima de 15 minutos.
+                    Si por algún motivo no puede asistir
+                    a la reserva le pedimos que lo comunique
+                    a través de nuestro whatsapp.
+                </p>
+                
+            </div>
+            
+        </section>
+        
+        <section class="campos">
+            
+            <form action="" class="campos__form">
+                
+                <div class="campos__div">
+                    
+                    <label for="Name">Nombre:</label>
+                    <input type="text" id="Name" required class="campos__blank">
+                    
+                </div>
+                
+                <div class="campos__div">
+                    
+                    <label for="Surname">Apellido:</label>
+                    <input type="text" id="Surname" required class="campos__blank">
+                    
+                </div>
+                
+                <div class="campos__div">
+                    
+                    <label for="Date">Fecha:</label>
+                    <input type="date" name="fecha" id="Date" required class="campos__blank">
+                    
+                </div>
+                
+                <div class="campos__div">
+                    
+                    <label for="quantity">Numero de personas</label>
+                    <input type="number" min="1" max="6" required>
+                    
+                </div>
+                
+            <div class="campos__div">
+                
+                <input type="submit" value="Reservar">
+                
+            </div>
+            
+            </form>
+        
+            <div class="lib__div">
+            
+            <img src="../img/libro.jpg" alt="Libro" width="420" class="lib__f">
+            
+            </div>
+        
+        </section>
+    
+    </main>
+    
+    <footer class="footer">
+
+        <div class="footer__contactos">
+
+            <h4>Contactos</h4>
+            
+            <ul>
+
+                <li>cafeteria@gmail.com</li>
+
+                <li>3426174942</li>
+                
+            </ul>
+
+        </div>
+
+        <div class="footer__redes">
+
+            <h4>Nuestras redes</h4>
+
+            <ul>
+
+                <li>Instagram:Cafeteria25</li>
+
+                <li>Facebook:Cafeteria25</li>
+
+            </ul>
+
+        </div>
+
+
+
+    </footer>
+
+    
+</body>
+</html>
