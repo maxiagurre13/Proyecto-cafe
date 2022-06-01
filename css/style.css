@@ -547,6 +547,14 @@ body{
     
 }
 
+.lib__div{
+
+    width: 50%;
+
+    margin-left: 25%;
+
+}
+
 /* lacarta */
 
 .title{
@@ -1318,6 +1326,14 @@ body{
     .lib__f{
 
         width: 90%;
+
+    }
+
+    .lib__div{
+
+        width: 70%;
+
+        margin-left: 15%;
 
     }
 

@@ -7,62 +7,48 @@
     <title>Carta</title>
     <link rel="shortcut icon" href="./img/Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="header">
+    <header class="sticky-top border-bottom border-2 border-dark">
 
-        <div class="header__logo"> <!-- logo de la cafeteria -->
-            
-            <a href="../index.html"><img src="../img/Logo.jpg" alt="Logo" width="60px" height="60px"></a>
-             
-         </div>
-
-
-        <nav class="header__nav">
-    
-            <label for="menu" class="header__lavel">
-
-                <img src="https://img.icons8.com/ios-filled/100/000000/menu--v1.png" class="header__burger"/>
-
-            </label>
-            <input type="checkbox" id="menu" class="header__check">
-
-            <div class="header__menu">
-                <ul class="header__ul">
-                    <li class="header__li">
-                        <a href="../index.html" class="header__a">Inicio</a>
-                    </li>
-                    <li class="header__li">
-                        <a href="./reservas.html" class="header__a">Reservas</a>
-                    </li>
-                    <li class="header__li"> 
-                        <a href="./lacarta.html" class="header__a">La Carta</a>
-                    </li>
-                    <li class="header__li">
-                        <a href="./contacto.html" class="header__a">Contacto</a>
-                    </li>
-                    <li class="header__li">
-                        <a href="./unetenos.html" class="header__a">Unete al staff</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #bf9000;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="border border-2 border-dark" src="../img/Logo.jpg" alt="" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-dark bg-light border border-dark border-3 rounded-4 d-inline-flex p-2 m-1" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark bg-light border border-dark border-3 rounded-4 d-inline-flex p-2 m-1" href="./reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark bg-light border border-dark border-3 rounded-4 d-inline-flex p-2 m-1" href="./lacarta.html">La Carta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark bg-light border border-dark border-3 rounded-4 d-inline-flex p-2 m-1" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-dark bg-light border border-dark border-3 rounded-4 d-inline-flex p-2 m-1" href="./unetenos.html">Unete al staff</a>
+                        </li>
+                    </ul>
+                </div>
+              
             </div>
-    
         </nav>
-    
-        <div class="header__insta">  <!-- logo de insta con enlace a el -->
-    
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="../img/insta.png" alt="insta" width="60px" height="60px">
-            </a>
-    
-        </div>
-
+        
     </header>
 
     <section class="title">
@@ -387,7 +373,8 @@
 
     </footer>
 
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
 
