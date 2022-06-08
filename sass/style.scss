@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+$colorFondo:rgba(191, 143, 0, 0.568);
+$generalBorde:solid 2px rgb(191,144,0);
+
+
 body{
 
     background-image: url(../img/cafefondo2.jpg);
@@ -51,9 +55,9 @@ body{
                 
                 text-align: center;
                 
-                background-color: rgba(191, 143, 0, 0.568);
+                background-color:$colorFondo;
                 
-                border: solid 2px rgb(191,144,0);
+                border:$generalBorde;
                 
                 position: relative;
                 bottom: 50%;
@@ -74,11 +78,11 @@ body{
             
             height: 424px;
             
-            border: solid 10px rgb(241, 181, 0);
+            border:$generalBorde;
             
             padding: 70px;
             
-            background-color: rgb(191,144,0);
+            background-color:$colorFondo;
             
             .portada__h1{
                 
@@ -127,11 +131,11 @@ body{
             
             height: 250px;
             
-            border: solid 10px rgb(241, 181, 0);
+            border:$generalBorde;
             
             padding: 15px;
             
-            background-color: rgb(191,144,0);
+            background-color:$colorFondo;
             
             .ubicacion__h3{
                 
@@ -159,7 +163,7 @@ body{
             width: 450px;
             height: 250px;
             
-            border: solid 10px rgb(241, 181, 0);
+            border:$generalBorde;
             
             
         }
@@ -175,7 +179,7 @@ body{
         
         border-top: solid black 3px;
         
-        background-color: rgb(191,144,0);
+        background-color:$colorFondo;
         
         margin-top: auto;
         
