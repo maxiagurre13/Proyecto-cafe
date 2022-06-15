@@ -1,0 +1,186 @@
+.title{
+
+    animation: bounceIn;
+    animation-duration: 2s;
+
+    display: grid;
+
+    justify-items: center;
+    
+    font-family: 'indie flowe', cursive;
+    
+    font-size: 35px;
+
+    margin-top: 50px;
+
+
+
+    .title__h1{
+    
+        text-align: center;
+        
+        padding: 5px;
+
+        background-color: $colorFondo;
+    
+        border: $generalBorde;
+        
+    }
+    
+}
+
+.carta{
+
+    animation: bounceIn;
+    animation-duration: 2s;
+
+    display: grid;
+    
+    font-family: 'indie flowe', cursive;
+    
+    margin: 50px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: auto 1fr;
+
+    justify-items: center;
+
+    .carta__a{
+    
+
+        display: inline-block;
+        
+        .carta__cafeteria{
+    
+    
+            @include cartaStile;
+            
+            .carta__title{
+    
+                font-size: 25px;
+                
+                text-align: center;
+                
+            }
+            .carta__item{
+    
+                border: solid 3px rgb(241, 181, 0);
+                
+                padding: 20px;
+                
+            }
+        }
+    }
+
+    .carta__b{
+   
+        display: inline-block;
+        
+        .carta__cafefria{
+    
+            @include cartaStile;
+            
+            .carta__title{
+    
+                font-size: 25px;
+                
+                text-align: center;
+                
+            }
+            .carta__item{
+    
+                border: solid 3px rgb(241, 181, 0);
+                
+                padding: 20px;
+                
+            }
+            
+        }
+        
+    }
+
+    .carta__c{
+    
+
+        display: inline-block;
+        
+        .carta__pastel{
+    
+    
+            @include cartaStile;
+            
+            .carta__title{
+    
+                font-size: 25px;
+                
+                text-align: center;
+                
+            }
+            .carta__item{
+    
+                border: solid 3px rgb(241, 181, 0);
+                
+                padding: 20px;
+                
+            }
+        }
+        
+    }
+
+    .carta__d{
+    
+        display: inline-block;
+
+        .carta__waffles{
+    
+            @include cartaStile;
+            
+            .carta__title{
+    
+                font-size: 25px;
+                
+                text-align: center;
+                
+            }
+            .carta__item{
+    
+                border: solid 3px rgb(241, 181, 0);
+                
+                padding: 20px;
+                
+            }
+        }
+        
+    }
+
+    .carta__e{
+    
+        grid-column: 3/4;
+        
+        display: inline-block;
+        
+        .carta__bagel{
+            
+            @include cartaStile;
+            
+            .carta__title{
+    
+                font-size: 25px;
+                
+                text-align: center;
+                
+            }
+            .carta__item{
+    
+                border: solid 3px rgb(241, 181, 0);
+                
+                padding: 20px;
+                
+            }
+        }
+    }
+
+    
+}
+

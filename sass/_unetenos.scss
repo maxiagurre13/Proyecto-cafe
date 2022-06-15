@@ -1,0 +1,77 @@
+.mainunete{
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto auto;
+
+    justify-items: center;
+
+    .intro{
+    
+        margin-top: 50px;
+    
+        margin-bottom: 50px;
+    
+        background-color: $colorFondo;
+        
+        border: $generalBorde;
+        
+        display: inline-block;
+        
+        width: 50%;
+        
+        font-family: 'indie flowe', cursive;
+        
+        text-align: center;
+        
+    }
+
+    .data{
+
+        margin-bottom: 50px;
+    
+        background-color: $colorFondo;
+        
+        border: $generalBorde;
+        
+        display: inline-block;
+        
+        padding: 20px;
+        
+        font-family: 'indie flowe', cursive;
+
+        .data__perso{
+    
+            padding: 20px;
+            
+        }
+        
+        .data__domi{
+            
+            padding: 20px;
+            
+        }
+        
+        .data__hora{
+            
+            padding: 20px;
+            
+        }
+        
+        .data__cv{
+            
+            padding: 20px;
+            
+        }
+        
+        .data__enviar{
+            
+            padding: 20px;
+            
+        }
+        
+    }
+
+}

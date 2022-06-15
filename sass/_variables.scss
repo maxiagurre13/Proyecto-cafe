@@ -1,0 +1,5 @@
+@import "maps";
+
+$colorFondo:map-get($map: $paleta, $key: priamrio );
+$generalBorde:solid 5px map-get($map: $paleta, $key: secundario );
+$footerBorder:solid 3px map-get($map: $paleta, $key: dark )

@@ -1,0 +1,82 @@
+.resmain{
+
+    display: grid;
+
+    grid-row: 1fr 1fr;
+
+    align-content: center;
+
+    justify-items: center;
+
+    .restext{
+
+        animation: backInLeft;
+        animation-duration: 2s;
+    
+        display: inline-block;
+        
+        font-family: 'indie flowe', cursive;
+        
+        background-color: $colorFondo;
+        
+        border: $generalBorde;
+        
+        padding: 10px;
+        
+        width: 50%;
+    
+        margin-top: 30px;
+
+        .restext__h1{
+    
+            text-align: center;
+            
+            font-size: 30px;
+            
+            
+        }
+        .restext__p{
+    
+            text-align: center;
+            
+            font-size: 22px;
+            
+            padding: 7px;
+            
+        }
+    
+    }
+
+    .campos{
+
+        animation: backInRight;
+        animation-duration: 2s;
+    
+        margin-top: 30px;
+    
+        margin-bottom: 40px;
+        
+        font-family: 'indie flowe', cursive;
+        
+        display: inline-block;
+        
+        border: $generalBorde;
+        
+        background-color: $colorFondo;
+        
+        padding: 20px;
+        
+        .lib__div{
+
+            width: 50%;
+        
+            margin-left: 25%;
+        
+        }
+    
+    }
+    
+    
+        
+
+}

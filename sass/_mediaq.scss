@@ -1,0 +1,482 @@
+@media (min-width: 961px) and (max-width: 1303px) {
+
+    .portada__text{
+        
+        width: 960px;
+        
+        
+    }
+
+    .ubicacion__map{
+        
+        width: 250px;
+        
+    }
+
+    
+}
+
+/* principal tablet */
+
+@media (min-width: 401px) and (max-width: 960px){
+    
+    .portada{
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 3fr auto;
+        
+        row-gap: 50px;
+        
+        .portada__foto{
+            
+            width: 100%;
+            
+        }
+        
+        .portada__text{
+
+            width: 100%;
+            
+            height: auto;
+            
+        }
+    }
+
+    .ubicacion{
+        
+        @include flexColumn;
+
+        .ubicacion__text{
+            
+            width: auto;
+    
+            height: auto;
+            
+        }
+        
+        .ubicacion__map{
+            
+            width: 401px;
+            
+            margin-top: 50px;
+            
+        }
+        
+
+    }
+    
+    
+}
+
+/* principal mobile */
+
+@media screen and (max-width: 400px){
+        
+    .portada{
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 3fr auto;
+        
+        row-gap: 50px;
+        
+        .portada__foto{
+            
+            width: 100%;
+            
+            .portada__h3{
+                
+                font-size: 20px;
+                
+                width: 35%;
+                
+            }
+        }
+        
+        .portada__text{
+
+            width: 100%;
+            
+            height: auto;
+            
+            .portada__h1{
+                
+                font-size: 30px;
+                
+            }
+            
+            .portada__p{
+                
+                font-size: 20px;
+                
+            }
+            
+        }
+        
+    }
+    
+    .ubicacion{
+        
+        flex-direction: column;
+        
+        .ubicacion__text{
+            
+            width: 100%;
+            
+            height: auto;
+            
+            .ubicacion__h3{
+                
+                font-size: 30px;
+                
+            }
+            
+            .ubicacion__p{
+                
+                font-size: 20px;
+                
+            }
+            
+        }
+
+        .ubicacion__map{
+            
+            width: 100%;
+            
+            margin-top: 50px;
+            
+        }
+        
+    }
+
+    
+}
+
+
+/* contactos mobile */
+
+@media screen and (max-width: 400px) {
+
+    .conmain{
+
+        grid-template-columns: 100%;
+
+        grid-template-rows: 120px 1fr 1fr;
+
+        justify-items: center;
+
+            .tcontc{
+                
+                grid-column: 1/2;
+
+                grid-row: 1/2;
+        
+                margin-left: 0;
+        
+                width: 70%;
+        
+                height: 50px;
+        
+                font-size: 19px;
+
+                .tcontc__h1{
+
+                    display: inline;
+
+                    width: auto;
+
+                }
+        
+            }
+
+            .datos{
+
+                grid-column: 1/2;
+
+                grid-row: 3/4;
+        
+                margin-left: 0px;
+        
+                margin-top: 30px;
+
+            }
+
+            .textarea{
+
+                display: block;
+        
+                grid-column: 1/2;
+        
+                grid-row: 2/3;
+        
+                width: 100%;
+        
+                margin-right: 0px;
+
+                .textarea__img{
+
+                    width: 100%;
+            
+                }
+        
+            
+            }
+
+
+
+    }
+    
+}
+
+/* contactos tablet */
+
+@media (min-width: 401px) and (max-width: 960px){
+    
+    .conmain{
+
+        grid-template-columns: 100%;
+
+        grid-template-rows: 120px 1fr 1fr;
+
+        justify-items: center;
+
+        .tcontc{
+
+            grid-column: 1/2;
+    
+            grid-row: 1/2;
+    
+            margin-left: 0;
+    
+            width: 70%;
+    
+            height: 50px;
+    
+            font-size: 19px;
+    
+            .tcontc__h1{
+
+                display: inline;
+        
+                width: auto;
+        
+            }
+
+        }
+        
+        .datos{
+
+            grid-column: 1/2;
+    
+            grid-row: 3/4;
+    
+            margin-left: 0px;
+    
+            margin-top: 30px;
+    
+        }
+
+        .textarea{
+
+            display: block;
+    
+            grid-column: 1/2;
+    
+            grid-row: 2/3;
+    
+            width: 70%;
+    
+            margin-right: 0px;
+    
+            .textarea__img{
+
+                width: 100%;
+        
+            }
+        
+        }
+
+    }
+
+
+}
+
+/* reservas mobile */
+
+@media screen and (max-width: 400px){
+
+    .restext{
+
+        width: 70%;
+
+        .restext__h1{
+
+            font-size: 20px;
+    
+        }
+        .restext__p{
+
+            font-size: 16px;
+    
+        }
+
+    }  
+    
+    .campos{
+
+        width: 50%;
+
+        .lib__div{
+
+            display: none;
+    
+        }
+    }
+
+}
+
+/* reservas tablet */
+
+@media (min-width: 401px) and (max-width: 960px){
+
+    .restext{
+
+        width: 70%;
+
+        .restext__h1{
+
+            font-size: 22px;
+    
+        }
+    
+        .restext__p{
+    
+            font-size: 18px;
+    
+        }
+    }
+
+    .campos{
+
+        width: 60%;
+
+        .lib__div{
+
+            width: 70%;
+    
+            margin-left: 15%;
+    
+            .lib__f{
+
+                width: 90%;
+        
+            }
+        }
+    }
+
+
+}
+
+/* la carta mobile */
+
+@media screen and (max-width: 400px){
+
+    .carta{
+
+        @include flexColumn;
+
+        .carta__b{
+        
+            margin-top: 20px;
+    
+        }
+    
+        .carta__c{
+    
+            margin-top: 20px;
+    
+        }
+
+    }
+
+
+
+}
+
+/* la carata tablet */
+
+@media (min-width: 401px) and (max-width: 960px){
+
+    .carta{
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+
+    }
+
+}
+
+/* unetenos mobile */
+
+@media screen and (max-width: 400px){
+
+    .intro{
+
+        width: 70%;
+
+        .intro__h1{
+
+            font-size: 20px;
+    
+        }
+    
+        .intro__p{
+    
+            font-size: 16px;
+    
+        }
+    }
+
+    .data{
+
+        width: 60%;
+
+        .data__input{
+
+            width: 100%;
+    
+        }
+    }
+
+
+
+}
+
+/* unetenos tablet */
+@media (min-width: 401px) and (max-width: 960px){
+
+    .intro{
+
+        width: 70%;
+
+
+    }
+
+}
+
+
+
+
+/* footer mobile */
+
+@media screen and (max-width: 400px) {
+
+    .footer{
+
+        font-size: 12px;
+
+    }
+    
+}
